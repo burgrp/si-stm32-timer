@@ -6,7 +6,6 @@ namespace genericTimer {
 		target::STK.CSR.setTICKINT(1);
 		target::STK.CSR.setCLKSOURCE(1);
 		target::STK.CSR.setENABLE(1);
-		target::NVIC.ISER.setSETENA(1 << target::interrupts::External::TIM14);
 	}
 
 }
