@@ -1,0 +1,11 @@
+{
+  "name": "@device.farm/si-stm32-timer",
+  "version": "1.0.0",
+  "dependencies": {
+    "si-generic-timer": "1.0.0"
+  },  "silicon": {
+    "sources": [
+      "stm32-timer.cpp"
+    ]
+  }
+}
