@@ -1,6 +1,8 @@
 namespace genericTimer {
 
-	void initHardware(int clkHz) {
+	int clkHz = 8E6;
+
+	void initHardware() {
 		target::STK.RVR.setRELOAD(clkHz / 100L);
 		target::STK.CVR.setCURRENT(0);
 		target::STK.CSR.setTICKINT(1);
