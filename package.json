@@ -1,6 +1,6 @@
 {
   "name": "@device.farm/si-stm32-timer",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "dependencies": {
     "@device.farm/si-generic-timer": "^1.0.1"
   },
